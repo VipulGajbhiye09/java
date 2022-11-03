@@ -30,3 +30,21 @@ public class Calculator {
                 c=a/b;
                 ;System.out.println("Division = "+c); 
                 break;
+            case "fact":
+                int fact1=1; 
+                for (int i=1;i<=a; i++){
+                    fact1=i*fact1;
+                }
+                System.out.println("Factorial of first value = "+fact1);
+                int fact2=1; 
+                for (int i=1;i<=b; i++){
+                    fact2=i*fact2;
+                }
+                System.out.println("Factorial of first value = "+fact2);
+            default:
+                break;
+        }
+    }
+    
+}
+    
