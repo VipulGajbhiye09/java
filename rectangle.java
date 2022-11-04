@@ -13,3 +13,16 @@ class rect{
         Scanner s2 = new Scanner(System.in);
         System.out.println("Enter width");
         b = s2.nextInt();
+    }
+    String get_colour(){
+        Scanner s3 = new Scanner(System.in);
+        System.out.println("Enter colour");
+        colour = s3.nextLine();
+        return colour;
+    }
+    int get_area(){
+        int area = l*b;
+        System.out.println("Area :"+area);
+        return 0;
+    }
+}
