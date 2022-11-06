@@ -25,3 +25,10 @@ public class Arr_sort {
                 }
             }
         }
+        System.out.println("Elements of array sorted in ascending order : ");
+        for(int i=0;i<a;i++){
+            System.out.println(arr[i]);
+        }
+    }
+    
+}
