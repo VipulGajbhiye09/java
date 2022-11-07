@@ -22,3 +22,17 @@ public class MatrixAdd {
             }
             System.out.println();
         }
+        System.out.println("First Matrix :");
+        for(int i=0;i<2;i++){
+            for(int j=0;j<2;j++){
+                System.out.println(arr1[i][j]+" ");
+            }
+            System.out.println();
+        }
+        System.out.println("Second Matrix :");
+        for(int i=0;i<2;i++){
+            for(int j=0;j<2;j++){
+                System.out.println(arr2[i][j]+" ");
+            }
+            System.out.println();
+        }
