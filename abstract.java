@@ -15,3 +15,10 @@ class A2 extends A1 {
   }
 }
 
+public class Abstract  {
+  public static void main(String[] args) {
+    A2 obj =new A2();
+    obj.notabs();
+    obj.abs();
+  }
+
