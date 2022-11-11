@@ -9,3 +9,9 @@ abstract class A1 {
   }
 }
 
+class A2 extends A1 {
+  public void abs() {
+    System.out.println("Abstarct Method Content");
+  }
+}
+
