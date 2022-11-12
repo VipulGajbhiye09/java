@@ -1,3 +1,4 @@
+// Program for Arithmetic Exception Handling
 class Main
 {
     public static void main(String args[])
