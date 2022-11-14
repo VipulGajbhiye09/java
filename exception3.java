@@ -1,3 +1,5 @@
+//String index excerption 
+
 class StringIndexOutOfBound_Demo
 {
     public static void main(String args[])
