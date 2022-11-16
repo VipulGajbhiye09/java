@@ -22,3 +22,8 @@ public class Strsort {
             }
             i+=1;
         }
+        System.out.println("Sorted Array is :");
+        System.out.println(arr);
+    }
+    
+}
