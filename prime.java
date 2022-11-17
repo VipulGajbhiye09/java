@@ -16,3 +16,11 @@ public class JavaApp {
             }
             
         }        
+          if(count==2){
+                System.out.println(i);
+            }
+    }
+    }        
+        
+}
+    
