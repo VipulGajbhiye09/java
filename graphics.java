@@ -15,3 +15,11 @@ public class JavaApplication16 extends Applet {
       
        g.setColor(Color.blue);
        g.fillOval(400,100,400,180);
+      
+       g.setColor(Color.green);
+       g.drawLine(100,100,300,80);
+       
+       g.drawString(s,10,50);
+    }
+    
+}
