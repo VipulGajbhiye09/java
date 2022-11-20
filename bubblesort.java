@@ -23,3 +23,15 @@ class Sort{
         System.out.println();
     }
 }
+
+public class Bubblesort {
+
+    public static void main(String[] args) {
+        Sort obj = new Sort();
+        int arr[] = {3,1,6,9,0,2 };
+        obj.bubbleSort(arr);
+        System.out.println("Sorted array");
+        obj.printArray(arr);
+    }
+    
+}
