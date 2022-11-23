@@ -13,3 +13,9 @@ class Main {
      {
          GFG.print(n1,n2);
      }
+     else
+     {
+         throw new IllegalStateException("Either one or two numbers are not Positive Integer");
+     }
+    }
+}
