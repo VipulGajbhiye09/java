@@ -10,3 +10,6 @@ class Main {
             System.out.println("Hello World");
             i++;
         }
+        while (i < 6);
+    }
+}
