@@ -9,3 +9,7 @@ public class Main {
             if (i % 5==0) {
                 continue;
             }
+            System.out.print(i + " ");
+        }
+    }
+}
