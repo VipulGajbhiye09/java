@@ -35,4 +35,11 @@ public class Main {
 
         case 7:
             dayString = "Sunday";
-            break;  
+            break; 
+                
+        default:
+            dayString = "Invalid day";
+        }
+        System.out.println(dayString);
+    }
+}
