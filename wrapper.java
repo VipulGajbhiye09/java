@@ -10,3 +10,8 @@ public class Main
         Character a = ch;
   
         ArrayList<Integer> arrayList = new ArrayList<Integer>();
+        arrayList.add(12);
+  
+        System.out.println(arrayList.get(0));
+    }
+}
