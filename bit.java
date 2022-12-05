@@ -13,3 +13,9 @@ public class Main {
         // bitwise or
         // 0101 | 0111=0111 = 7
         System.out.println("a|b = " + (a | b));
+        // bitwise xor
+        // 0101 ^ 0111=0010 = 2
+        System.out.println("a^b = " + (a ^ b));
+     }
+}       
+        
