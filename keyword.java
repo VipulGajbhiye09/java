@@ -9,7 +9,14 @@ class Car extends Vehicle {
  
     void display()
     {
-        System.out.println("Maximum Speed: "
-                           + super.maxSpeed);
+        System.out.println("Maximum Speed: " + super.maxSpeed);
+    }
+}
+
+public class Main {
+    public static void main(String[] args)
+    {
+        Car obj = new Car();
+        obj.display();
     }
 }
