@@ -6,3 +6,10 @@ abstract class A
         System.out.println("This is a concrete method.");
     }
 }
+
+class B extends A
+{
+    void m1() {
+        System.out.println("B's implementation of m1.");
+    }
+}
