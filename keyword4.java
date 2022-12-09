@@ -2,3 +2,7 @@
   
 public class Main
 {
+    static void m1()
+    {
+        System.out.println("from m1");
+    }
