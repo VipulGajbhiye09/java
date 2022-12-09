@@ -6,3 +6,8 @@ public class Main
     {
         System.out.println("from m1");
     }
+    public static void main(String[] args)
+    {
+           m1();
+    }
+}
