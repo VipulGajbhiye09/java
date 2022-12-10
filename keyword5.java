@@ -4,3 +4,9 @@ class Test
 {
     static int a = 15;
     static int b;
+  
+    // static block
+    static {
+        System.out.println("Static block initialized.");
+        b = a * 5;
+    }
