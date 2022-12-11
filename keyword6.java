@@ -11,3 +11,10 @@ public class Main {
           System.out.println(str); 
         }
     }
+  
+    public static void main(String args[])
+    {
+        Main.MyClass obj = new Main.MyClass();
+        obj.disp();
+    }
+}
