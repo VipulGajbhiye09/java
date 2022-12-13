@@ -15,3 +15,9 @@ class Test
     {
         System.out.println("a = " + a + "  b = " + b);
     }
+    public static void main(String[] args)
+    {
+        Test object = new Test(10, 20);
+        object.display();
+    }
+}
