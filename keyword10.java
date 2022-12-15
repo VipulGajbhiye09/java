@@ -18,3 +18,9 @@ public class Test
     {
         display(this);
     }
+    public static void main(String[] args)
+    {
+        Test object = new Test();
+        object.get();
+    }
+}
