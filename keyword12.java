@@ -17,3 +17,13 @@ class B
     {
         A obj = new A (this);
     }
+    
+    void display()
+    {
+        System.out.println("Value of x in Class B : " + x);
+    }
+     
+    public static void main(String[] args) {
+        B obj = new B();
+    }
+}
