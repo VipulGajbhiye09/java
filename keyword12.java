@@ -9,3 +9,11 @@ class A
     }
      
 }
+class B
+{
+    int x = 5;
+
+    B()
+    {
+        A obj = new A (this);
+    }
