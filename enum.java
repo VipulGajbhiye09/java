@@ -4,3 +4,9 @@ public class Test {
         green,
         blue;
     }
+    
+    public static void main(String[] args)
+    {
+        Color c1 = Color.red;
+        System.out.println(c1);
+    }
