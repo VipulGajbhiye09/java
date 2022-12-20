@@ -10,6 +10,15 @@ enum Color {
 
         public void colorInfo()
     {
-        System.out.println("Universal Color");
+        System.out.println("Color Info");
+    }
+}
+
+public class Test {
+    public static void main(String[] args)
+    {
+        Color c1 = Color.RED;
+        System.out.println(c1);
+        c1.colorInfo();
     }
 }
