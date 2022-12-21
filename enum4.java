@@ -33,3 +33,10 @@ public class Test {
             break;
         }
     }
+        public static void main(String[] args)
+    {
+        String str = "MONDAY";
+        Test t1 = new Test(Day.valueOf(str));
+        t1.dayIsLike();
+    }
+
