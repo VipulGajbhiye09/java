@@ -10,3 +10,12 @@ class Addition {
         return sum;
     }
 }
+class Main {
+ 
+    public static void main(String[] args)
+    {
+        Addition add = new Addition();
+        int s = add.addInt(9, 3);
+        System.out.println("Sum of two integer values :" + s);
+    }
+}
