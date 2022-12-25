@@ -7,3 +7,9 @@ class A1
         System.out.println("Hello World!");
     }
 }
+
+package p2;
+import p1.*;
+ 
+class A2
+{
