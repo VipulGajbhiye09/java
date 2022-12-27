@@ -6,4 +6,5 @@ class Test {
     {
         int n = 10;
         ArrayList<Integer> arrli = new ArrayList<Integer>(n);
- 
+         for (int i = 1; i <= n; i++)
+            arrli.add(i)
