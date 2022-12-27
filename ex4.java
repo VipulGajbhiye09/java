@@ -8,3 +8,4 @@ class Test {
         ArrayList<Integer> arrli = new ArrayList<Integer>(n);
          for (int i = 1; i <= n; i++)
             arrli.add(i)
+       System.out.println(arrli);
