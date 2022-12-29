@@ -7,3 +7,7 @@ class Bicycle {
         this.gear = gear;
         this.speed = speed;
     }
+    public void applyBrake(int decrement)
+    {
+        speed -= decrement;
+    }
