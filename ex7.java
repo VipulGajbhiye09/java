@@ -17,3 +17,6 @@ class Bicycle {
     }
     public String toString()
        return ("No of gears are " + gear + "\n"
+                + "speed of bicycle is " + speed);
+    }
+}
