@@ -16,3 +16,4 @@ class Bicycle {
         speed += increment;
     }
     public String toString()
+       return ("No of gears are " + gear + "\n"
