@@ -15,3 +15,4 @@ class Bicycle {
     {
         speed += increment;
     }
+    public String toString()
