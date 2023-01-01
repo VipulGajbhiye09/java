@@ -20,3 +20,4 @@ class Bicycle {
                 + "speed of bicycle is " + speed);
     }
 }
+class MountainBike extends Bicycle {
