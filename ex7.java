@@ -21,3 +21,4 @@ class Bicycle {
     }
 }
 class MountainBike extends Bicycle {
+    public int seatHeight;
