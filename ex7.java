@@ -29,3 +29,5 @@ class MountainBike extends Bicycle {
     {
         seatHeight = newValue;
     }
+    @Override public String toString()
+    {
