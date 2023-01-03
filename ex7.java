@@ -35,3 +35,5 @@ class MountainBike extends Bicycle {
                 + seatHeight);
     }
 }
+
+public class Test {
