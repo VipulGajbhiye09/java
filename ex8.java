@@ -11,3 +11,6 @@ public class Main {
     public static void main(String args[])
     {
         Employer e = new Employer();
+        System.out.println("Salary : " + e.salary + "\nBenefits : " + e.benefits);
+    }
+}
