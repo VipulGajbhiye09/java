@@ -10,3 +10,4 @@ class Employer extends Employee {
 public class Main {
     public static void main(String args[])
     {
+        Employer e = new Employer();
