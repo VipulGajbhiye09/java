@@ -14,4 +14,3 @@ public class Main {
         System.out.println("Salary : " + e.salary + "\nBenefits : " + e.benefits);
     }
 }
-
