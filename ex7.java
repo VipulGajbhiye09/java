@@ -19,8 +19,7 @@ class Bicycle {
        return ("No of gears are " + gear + "\n"
                 + "speed of bicycle is " + speed);
     }
-}
-
+} 
 class MountainBike extends Bicycle {
     public int seatHeight;
     public MountainBike(int gear, int speed,
