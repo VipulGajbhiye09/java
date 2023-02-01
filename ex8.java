@@ -6,7 +6,6 @@ class Employee {
 class Employer extends Employee {
     int benefits = 5000;
 }
-
 public class Main {
     public static void main(String args[])
     {
