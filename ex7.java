@@ -35,6 +35,7 @@ class MountainBike extends Bicycle {
                 + seatHeight);
     }
 }
+
 public class Test {
     public static void main(String args[])
     {
