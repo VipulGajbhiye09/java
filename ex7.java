@@ -20,6 +20,7 @@ class Bicycle {
                 + "speed of bicycle is " + speed);
     }
 }
+
 class MountainBike extends Bicycle {
     public int seatHeight;
     public MountainBike(int gear, int speed,
